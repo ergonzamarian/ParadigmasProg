@@ -57,6 +57,13 @@ public class CursoM {
 		this.cargaHoraria = cargaHoraria;
 	}
 	
+	public void ImprimeCurso() {
+		System.out.println("Código: "+ this.getCodigoCurso());
+		System.out.println("Nome: "+this.getNome());
+		System.out.println("Total Semestres: "+this.getQdadeSemestre());
+		System.out.println("Carga Horaria: "+this.getCargaHoraria());
+		System.out.println("Turno: "+this.getTurno());
+	}
 	
 	
 

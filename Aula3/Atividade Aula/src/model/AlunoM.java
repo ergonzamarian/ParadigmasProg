@@ -36,6 +36,10 @@ public class AlunoM {
 	public void setCurso(CursoM curso) {
 		this.curso = curso;
 	}
-	
-	
+	public void ImprimeAlunoM() {
+		System.out.println("RA: "+this.getRA());
+		System.out.println("Ano de Entrada: "+this.getAnoEntrada());
+		//this.getCurso().ImprimeCurso();
+		this.curso.ImprimeCurso();
+	}
 }
