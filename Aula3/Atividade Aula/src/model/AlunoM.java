@@ -49,6 +49,8 @@ public class AlunoM {
 	}
 
 	public void ImprimeAlunoM() {
+		
+		System.out.println("-------- DADOS DO ALUNO --------");
 		System.out.println("RA: "+this.getRA());
 		System.out.println("Ano de Entrada: "+this.getAnoEntrada());
 		//this.getCurso().ImprimeCurso();

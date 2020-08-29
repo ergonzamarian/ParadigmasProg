@@ -58,6 +58,7 @@ public class CursoM {
 	}
 	
 	public void ImprimeCurso() {
+		System.out.println("-------- DADOS CURSO --------");
 		System.out.println("Código: "+ this.getCodigoCurso());
 		System.out.println("Nome: "+this.getNome());
 		System.out.println("Total Semestres: "+this.getQdadeSemestre());

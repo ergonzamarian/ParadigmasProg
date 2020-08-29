@@ -48,10 +48,10 @@ public class DadosPessoaisM {
 	}
 	
 	public void ImprimeDadosPessoais () {
-		
+		System.out.println("--------  DADOS PESSOAIS --------");
 		System.out.println("Nome: "+ this.getNome());
-		System.out.println("CPF"+ this.getCPF());
-		System.out.println("DAta Nascimento: "+ this.getDataNascimento());
+		System.out.println("CPF: "+ this.getCPF());
+		System.out.println("Data Nascimento: "+ this.getDataNascimento());
 		System.out.println("Sexo: "+ this.getSexo());
 		System.out.println("E-mail: "+ this.getEmail()); 
 		

@@ -16,7 +16,7 @@ public class AlunoC {
 		}
 		public void ListaGeral() {
 			for (AlunoM listagem : vetorAlunos) {
-				System.out.println("---------------------------");
+				System.out.println("________________________________");
 				listagem.ImprimeAlunoM();
 			}
 		}
