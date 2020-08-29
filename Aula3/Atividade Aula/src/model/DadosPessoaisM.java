@@ -5,7 +5,7 @@ public class DadosPessoaisM {
 	private String nome;
 	private String CPF;
 	private String DataNascimento;
-	private char Sexo; 
+	private char Sexo;
 	private String email;
 	
 	public DadosPessoaisM(String nome, String cPF, String dataNascimento, char sexo, String email) {
@@ -47,5 +47,14 @@ public class DadosPessoaisM {
 		this.email = email;
 	}
 	
+	public void ImprimeDadosPessoais () {
+		
+		System.out.println("Nome: "+ this.getNome());
+		System.out.println("CPF"+ this.getCPF());
+		System.out.println("DAta Nascimento: "+ this.getDataNascimento());
+		System.out.println("Sexo: "+ this.getSexo());
+		System.out.println("E-mail: "+ this.getEmail()); 
+		
+	}
 	
 }
