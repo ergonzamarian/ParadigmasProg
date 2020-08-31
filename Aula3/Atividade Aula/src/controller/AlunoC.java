@@ -11,9 +11,11 @@ public class AlunoC {
 		public AlunoC() {
 			vetorAlunos = new ArrayList<>();
 		}
+		//CADASTRANDO ALUNO COM ADD
 		public void cadastroAlunoM(AlunoM alunom) {
 			vetorAlunos.add(alunom);
 		}
+		//LISTANDO O ALUNO QUE FOR CHAMADO NO AlunoM
 		public void ListaGeral() {
 			for (AlunoM listagem : vetorAlunos) {
 				System.out.println("________________________________");
