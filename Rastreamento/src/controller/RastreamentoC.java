@@ -105,7 +105,7 @@ public class RastreamentoC {
 			
 			//impressão dos dados no prompt
 			while(dados.next()) {
-				System.out.println("----------------------------------------------------");
+				System.out.println("------------- RASTREIO EXCLUIDO -----------------------");
 				System.out.println("Id do Rastreamento:         "+ dados.getInt(1));
 				System.out.println("Equnr (N° Ativo):           "+ dados.getString(2));
 				System.out.println("Centro de Custo:            "+ dados.getString(3));
