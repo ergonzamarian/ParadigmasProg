@@ -1,11 +1,8 @@
-create table rastreamento (
-	idRastreio integer,
-	equnr varchar(36),
-	centro_custo varchar(36),
-	dataEntrada varchar(12),
-	localidade varchar(36),
-	primary key (idRastreio)
-	/*foreign key (equnr)*/
+create table usuario (
+	id integer,
+	login varchar(8),
+	senha varchar(8),
+	primary key (id)
 );
 
-select * from rastreamento;
+select * from usuario
